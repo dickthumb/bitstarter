@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 app.use(express.logger());
 var fs = require('fs');
-var buf = new Buffer(16);
+var buf = new Buffer(19);
 buf =  fs.readfile('index.html');
 
 
